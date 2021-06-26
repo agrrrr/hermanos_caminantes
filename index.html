@@ -4,11 +4,6 @@
     <title>Hermanos Caminantes</title>
   </head>
   <style>
-    /* http://meyerweb.com/eric/tools/css/reset/ 
-      v2.0 | 20110126
-      License: none (public domain)
-    */
-
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -62,12 +57,12 @@
       font-family: Arial, Helvetica, sans-serif;
       font-style: normal;
       font-weight: normal;
+      color: white;
     }
     img { width: 100%; }
     nav { position: absolute; right: 0;}
     nav a {
       font-size: 5vw;
-      color: #FFFFFF;
       display: inline;
     }
     nav li {margin-right: 2.5vw;}
@@ -77,7 +72,17 @@
     a:visited {color: #FFFFFF;}
     header { position: fixed; top: 0; left: 0; width: 100%; }
     #floating-header-background { position: absolute; top: 0; left: 0; width: 100%; z-index: -1; }
-    #logo-s{ position: relative; display:inline-block; width: 6.5%; top: 3%; }
+    #logo-s{ position: relative; display:inline-block; width: 6.5vw; top: 1vw; }
+    h2 {font-size: 5vw;}
+    #conocenos h2 {text-align: right; margin-right: 2.5vw; position: relative; top: 18vw;}
+    #colabora h2 {text-align: left; margin-left: 2.5vw; position: relative; top: 3vw;}
+    #siguenos h2 {text-align: center; margin-right: 2.5vw; position: relative; top: 135vw;}
+    li {display:block; width: 100%; height: 4.5vw;}
+    span{font-size: 2.5vw; width: fit-content; background-color: black; padding: 1vw; vertical-align: top;}
+    h3 {position: absolute; right: 2vw; text-align: right;}
+    h4 {position: absolute; left:2vw;}
+    a {vertical-align: top; margin: 2vw;}
+    h6 {font-size: 6vw; margin-top: 5vw; margin-bottom: 5vw;}
   </style>
   <body>
     <header id="top">
@@ -92,38 +97,111 @@
       </nav>
     </header>
     <section>
-      <img src="HERO.png" alt="logo">
+      <img style="position: relative; top: 15vw; z-index: -1;" src="HERO.png" alt="logo">
     </section>
     <section id="conocenos"> 
-      <header>
-        <img src="" alt="">
-        <h2>conócenos</h2>
-      </header>
-      <img src="" alt="">
-      <p></p>
-      <img src="" alt="">
-
+      <h2>conócenos</h2>
+      <img src="conocenos.png" alt="">
+      <h3 style="top:230vw;">
+        <ul>
+          <li><span>nacida en 2020</span></li>
+          <li><span>Hermanos Caminantes</span></li>
+          <li><span>es la única campaña independiente</span></li>
+          <li><span>atendiendo  la crisis migratoria</span> </li>
+          <li><span>más aguda del planeta,</span></li>
+          <li><span>en la frontera entre</span> </li>
+          <li><span>Colombia y Venezuela</span></li>
+        </ul>
+      </h3>
+      <h3>
+      <h4 style="top:340vw;">
+        <ul>
+          <li><span>en el Punto de Apoyo</span></li>
+          <li><span>Hermanos Caminantes</span></li>
+          <li><span>-Villa Marina, a 50 kms de la frontera</span></li>
+          <li><span>brindamos atención, calzado, ropa para</span></li>
+          <li><span>el frío y comida. Un alto en el camino</span></li>
+          <li><span>antes del gélido Páramo de Berlín,</span></li>
+          <li><span>al que niños, ancianos, familias y</span></li>
+          <li><span>jóvenes llegan exhaustos tras semanas</span></li>
+          <li><span>caminando desde Venezuela</span></li>
+        </ul>
+      </h4>
+      <h3 style="top:420vw;">
+        <ul>
+          <li><span>esto es sólo posible</span></li>
+          <li><span>gracias a la colaboración</span></li>
+          <li><span>y a los donativos</span></li>
+          <li><span>de voluntarios de cada vez</span></li>
+          <li><span>más ciudades</span></li>
+          <li><span>del mundo</span></li>
+        </ul>
+      </h3>
+      <h4 style="top:510vw;">
+        <ul>
+          <li><span>puedes sumarte</span></li>
+          <li><span>con donaciones,</span></li>
+          <li><span>en dinero o en especie,</span></li>
+          <li><span>y también cooperando</span></li>
+          <li><span>como voluntario.</span></li>
+          <li><span>Cada centavo cuenta.</span></li>
+          <li><span>¡Miles de hermanos caminantes necesitan tu ayuda!</span></li>
+        </ul>
+      </h4>
     </section>
     <section id="colabora">
-      <header>
-        <img src="" alt="">
-        <h2>conócenos</h2>
-      </header>
-      <img src="" alt="">
-      <p></p>
-      <img src="" alt="">
+      <h2>colabora</h2>
+      <img src="colabora.png" alt="">
+      <h4 style="top:900vw;">
+        <p>donativos:</p>
+        <ul style="margin-top: 3vw;">
+          <li style="margin-top: 5vw;">
+            <img style="width: 6vw;" src="bitcoin.png" alt="">
+            <span style="position: relative; top:1.5vw; left: 1.3vw">bitcoin: bc1qz0lwwckzpva2klcksmaavkpmj9amsq68dal2g7</span>
+          </li>
+          <li style="margin-top: 4vw;">
+            <img style="width: 4vw; position: relative; left: 1vw;" src="eth.png" alt="">
+            <span style="position: relative; top:2vw; left: 3vw;">ethereum: 0xe6882a9e63493b9721872AcADce1e39649F2e01b</span>
+          </li>
+          <li style="margin-top: 6vw;">
+            <img style="width: 12vw;" src="paypal.png" alt="">
+            <span>ronaldvergarayreina@gmail.com</span>
+          </li>
+          <li style="margin-top: 4vw;">
+            <img style="width: 12vw;" src="ofundgofundme.png" alt="">
+            <span>(puedes hacer clic acá)</span>
+          </li>
+        </ul>
+      </h4>
+      <h4 style="top:947vw;">
+        <p style="margin-bottom: 2vw;">grupos de trabajo:<p>
+        <span>Colombia</span>
+        <span>Venezuela</span>
+        <span>España</span>
+        <span>Online</span>
+      </h4>
     </section>
     <section id="siguenos">
-      <header>
-        <img src="" alt="">
-        <h2>conócenos</h2>
-      </header>
-      <img src="" alt="">
-      <p></p>
-      <img src="" alt="">
+      <h2>síguenos</h2>
+      <img src="siguenos.png" alt="">
+      <h3 style="top:1100vw;">
+        <a href="">
+          <img style="width: 10vw;" src="INSTA.png" alt="">
+        </a>
+        <a href="">
+          <img style="width: 12vw;" src="fb.png" alt="">
+        </a>
+        <a href="">
+          <img style="width: 17vw;" src="twitter.png" alt="">
+        </a>
+        <a href="">
+          <img style="width: 25vw;" src="youtube.png" alt="">
+        </a>
+        <h6>@chcaminantes</h6>
+      </h3>
     </section>
     <footer>
-      <p>todos los derechos reservados.</p>
+      <span>todos los derechos reservados.</span>
     </footer>
   </body>
 </html>
