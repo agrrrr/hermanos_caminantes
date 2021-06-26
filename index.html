@@ -71,6 +71,11 @@
     a:hover {color: red;}
     a:visited {color: #FFFFFF;}
     header { position: absolute; top: 0; left: 0; width: 100%; z-index: 100; }
+    @media (max-width: 600px) {
+     header {
+        position: fixed;
+      }
+    }
     #floating-header-background { position: absolute; top: 0; left: 0; width: 100%; z-index: -1; }
     #logo-s{ position: relative; display:inline-block; width: 6.5vw; top: 1vw; }
     h2 {font-size: 5vw;}
